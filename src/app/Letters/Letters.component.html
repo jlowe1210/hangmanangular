@@ -1,0 +1,9 @@
+<div class="letters_container">
+  <letter
+    (emittedLetter)="handleEmittedLetter($event)"
+    *ngFor="let letter of letters"
+    [letter]="letter"
+    [isWordLetter]="false"
+    [status]="status"
+  ></letter>
+</div>

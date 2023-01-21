@@ -1,0 +1,8 @@
+<div class="word_container">
+  <letter
+    *ngFor="let letter of this.word.split('')"
+    [isWordLetter]="true"
+    [letter]="letter"
+    [guesses]="guesses"
+  ></letter>
+</div>

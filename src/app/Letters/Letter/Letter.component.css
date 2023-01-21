@@ -1,0 +1,22 @@
+.letter {
+  padding: 0.5rem;
+  background-color: lightgray;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  font-family: "Indie Flower", cursive;
+}
+
+.word_letter {
+  background-color: lightgray;
+  font-family: "Indie Flower", cursive;
+  font-size: 3rem;
+  margin: 0 0.8rem;
+  min-width: 2.5rem;
+  text-align: center;
+  border-bottom: 0.2rem solid black;
+}
+
+.word_letter p {
+  visibility: hidden;
+  min-width: 2.5rem;
+}

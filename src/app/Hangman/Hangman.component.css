@@ -1,0 +1,13 @@
+.hangman {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.body,
+.head,
+.leftarm,
+.rightarm,
+.leftleg,
+.rightleg {
+  margin: 0 auto;
+}

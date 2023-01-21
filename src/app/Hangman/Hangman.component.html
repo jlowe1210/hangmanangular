@@ -1,0 +1,8 @@
+<div class="hangman">
+  <hangman-head *ngIf="this.wrongGuess >= 1"></hangman-head>
+  <hangman-body *ngIf="this.wrongGuess >= 2"></hangman-body>
+  <hangman-leftman *ngIf="this.wrongGuess >= 3"></hangman-leftman>
+  <hangman-rightarm *ngIf="this.wrongGuess >= 4"></hangman-rightarm>
+  <hangman-leftleg *ngIf="this.wrongGuess >= 5"></hangman-leftleg>
+  <hangman-rightleg *ngIf="this.wrongGuess >= 6"></hangman-rightleg>
+</div>

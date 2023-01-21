@@ -3,14 +3,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+import { HangmanModule } from './Hangman/Hangman.module';
+import { LetterComponent } from './Letters/Letter/Letter.component';
+import { LettersComponent } from './Letters/Letters.component';
+
+import { WordComponent } from './Word/Word.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WordComponent,
+    LettersComponent,
+    LetterComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule, HangmanModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

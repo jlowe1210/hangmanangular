@@ -1,0 +1,12 @@
+<div
+  (click)="!isWordLetter && !this.status.status ? emitLetter() : false"
+  [ngClass]="{ letter: !isWordLetter, word_letter: isWordLetter }"
+>
+  <p
+    [ngStyle]="{
+      visibility: showIfGuessCorrect(letter) ? 'visible' : null
+    }"
+  >
+    {{ letter }}
+  </p>
+</div>

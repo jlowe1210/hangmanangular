@@ -1,0 +1,6 @@
+.word_container {
+  justify-content: center;
+  display: flex;
+  /* margin: 0 auto; */
+  margin: 2rem 1rem;
+}
